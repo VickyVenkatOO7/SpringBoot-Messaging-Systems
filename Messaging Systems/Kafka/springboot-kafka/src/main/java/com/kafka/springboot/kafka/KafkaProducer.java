@@ -21,4 +21,5 @@ public class KafkaProducer {
         LOGGER.info(String.format("Message sent %s", message));
         kafkaTemplate.send("Topic-1", message);
     }
+
 }
